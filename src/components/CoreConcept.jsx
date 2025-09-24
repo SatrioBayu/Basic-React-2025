@@ -1,8 +1,6 @@
 import "./CoreConcept.css";
 
 export default function CoreConcept(props) {
-  console.log(props);
-
   return (
     <li>
       <img src={props.image} alt="" />
